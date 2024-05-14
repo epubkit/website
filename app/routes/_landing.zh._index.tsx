@@ -4,6 +4,7 @@ import EpubkitImportUrl from '../images/epubkit-import-url.png'
 import EpubkitImportWebsite from '../images/epubkit-import-website.png'
 import EpubkitImportRSS from '../images/epubkit-import-rss.png'
 import EpubkitExtension from '../images/epubkit-extension.png'
+import IntroImage from '../images/intro.png'
 import { config } from "~/config";
 import { showDownloadModal } from "./_landing";
 
@@ -103,6 +104,14 @@ export default function Index() {
           <small>支持 macOS, Windows</small>
         </div>
       </section>
+
+
+      <section>
+        <div className="mt-12">
+          <img src={IntroImage} alt="" />
+        </div>
+      </section>
+
 
       <hr className="my-24" />
 
